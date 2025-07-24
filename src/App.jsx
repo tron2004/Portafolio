@@ -2,9 +2,6 @@ import React from 'react';
 import { useState } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-
-
-
 import {
   FaHtml5,
   FaCss3Alt,
@@ -81,7 +78,7 @@ const App = () => {
                     {copied && (
                       <span className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-green-600 text-white text-xs px-2 py-1 rounded shadow-md">
                         ¡Correo copiado!
-                      </span>
+                      </span> 
                     )}
                   </div>
                 </div>
@@ -92,7 +89,7 @@ const App = () => {
             <div className="relative md:w-1/2 flex justify-center mt-10 md:mt-0">
               <div className="w-84 h-84">
                 {/* 👇 Reemplaza src por la ruta de tu imagen */}
-                <img src="/img/perfil.png" alt="Mario Ramírez" className="object-cover w-full h-full" />
+                <img src= "img/perfil.png" alt="Mario Ramírez" className="object-cover w-full h-full" />
               </div>
 
               {/* Iconos flotantes (opcional) */}
@@ -129,7 +126,6 @@ const App = () => {
               <h3 className="font-semibold text-white">Certificacion Oracle ONE</h3>
               <p className="text-sm text-gray-400"><a href="https://app.aluracursos.com/program/certificate/a484ff0e-3613-4e02-a93d-42cb60d01b99" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Certificado</a> (2023)</p>
             </div>
-            {/* Puedes agregar más experiencia aquí */}
           </div>
         </section>
 
@@ -143,16 +139,14 @@ const App = () => {
               {/* Carrusel */}
               <div className="md:w-1/2 w-full">
                 <Carousel showThumbs={false} showStatus={false} infiniteLoop emulateTouch>
-                  <div><img src="/img/foto6.jpeg" alt="Web 1" className="object-cover w-full h-full" /></div>
-                  <div><img src="/img/foto7.jpeg" alt="Web 2" className="object-cover w-full h-full" /></div>
+                  <div><img src="img/foto6.jpeg" alt="Web 1" className="object-cover w-full h-full" /></div>
+                  <div><img src="img/foto7.jpeg" alt="Web 2" className="object-cover w-full h-full" /></div>
                 </Carousel>
               </div>
               {/* Info */}
               <div className="md:w-1/2 w-full p-6 flex flex-col justify-center space-y-4">
                 <h3 className="text-xl font-semibold text-white">Sitio Web Personal</h3>
-                <p className="text-sm text-gray-400">Desarrollé un sitio web informativo y visualmente atractivo centrado en la cultura japonesa. El proyecto destaca por su diseño responsivo, el uso de componentes reutilizables y animaciones suaves implementadas con Tailwind CSS y JavaScript. Este proyecto demuestra mi capacidad para crear experiencias de usuario modernas y funcionales desde cero.
-
-</p>
+                <p className="text-sm text-gray-400">Desarrollé un sitio web informativo y visualmente atractivo centrado en la cultura japonesa. El proyecto destaca por su diseño responsivo, el uso de componentes reutilizables y animaciones suaves implementadas con Tailwind CSS y JavaScript. Este proyecto demuestra mi capacidad para crear experiencias de usuario modernas y funcionales desde cero.</p>
                 <div className="flex gap-2 flex-wrap text-xs text-white">
                   <span className="bg-blue-700 px-2 py-0.5 rounded">HTML</span>
                   <span className="bg-yellow-500 px-2 py-0.5 rounded">JavaScript</span>
@@ -165,9 +159,9 @@ const App = () => {
             <div className="flex flex-col md:flex-row bg-neutral-900 rounded-xl overflow-hidden shadow-lg hover:scale-[1.01] transition-transform duration-300">
               <div className="md:w-1/2 w-full">
                 <Carousel showThumbs={false} showStatus={false} infiniteLoop emulateTouch>
-                  <div><img src="/img/foto8.jpg" alt="Juego 1" className="object-cover w-full h-full" /></div>
-                  <div><img src="/img/foto9.jpg" alt="Juego 2" className="object-cover w-full h-full" /></div>
-                  <div><img src="/img/foto11.jpg" alt="Juego 3" className="object-cover w-full h-full" /></div>
+                  <div><img src="img/foto8.jpg" alt="Juego 1" className="object-cover w-full h-full" /></div>
+                  <div><img src="img/foto9.jpg" alt="Juego 2" className="object-cover w-full h-full" /></div>
+                  <div><img src="img/foto11.jpg" alt="Juego 3" className="object-cover w-full h-full" /></div>
                 </Carousel>
               </div>
               <div className="md:w-1/2 w-full p-6 flex flex-col justify-center space-y-4">
@@ -176,17 +170,17 @@ const App = () => {
                 <div className="flex gap-2 flex-wrap text-xs text-white">
                   <span className="bg-gray-700 px-2 py-0.5 rounded">C++</span>
                 </div>
-              </div>
+              </div>+
             </div>
 
             {/* Proyecto 3 */}
             <div className="flex flex-col md:flex-row bg-neutral-900 rounded-xl overflow-hidden shadow-lg hover:scale-[1.01] transition-transform duration-300">
               <div className="md:w-1/2 w-full">
                 <Carousel showThumbs={false} showStatus={false} infiniteLoop emulateTouch>
-                  <div><img src="/img/foto1.jpeg" alt="App 1" className="object-cover w-full h-full" /></div>
-                  <div><img src="/img/foto2.jpeg" alt="App 2" className="object-cover w-full h-full" /></div>
-                  <div><img src="/img/foto3.jpeg" alt="App 3" className="object-cover w-full h-full" /></div>
-                  <div><img src="/img/foto5.jpeg" alt="App 4" className="object-cover w-full h-full" /></div>
+                  <div><img src="img/foto1.jpeg" alt="App 1" className="object-cover w-full h-full" /></div>
+                  <div><img src="img/foto2.jpeg" alt="App 2" className="object-cover w-full h-full" /></div>
+                  <div><img src="img/foto3.jpeg" alt="App 3" className="object-cover w-full h-full" /></div>
+                  <div><img src="img/foto5.jpeg" alt="App 4" className="object-cover w-full h-full" /></div>
                 </Carousel>
               </div>
               <div className="md:w-1/2 w-full p-6 flex flex-col justify-center space-y-4">
